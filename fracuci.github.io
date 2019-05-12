@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+#fracuci.github.io
 <html>
 	<head>
-		<title> fracuci </title>
+		<title>Fracuci</title>
 	</head>
 	<body>	
 		<h1> I'm Francesco and I want to build my personal Web Page </h1>
