@@ -1,6 +1,6 @@
 ---
 layout: default
-title : fracuci
+title : Home
 ---
 <html>
 	<head>
