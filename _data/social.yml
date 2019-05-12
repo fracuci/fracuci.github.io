@@ -1,8 +1,12 @@
 - name: Facebook
-  link: 'https://www.facebook.com/comfusionllc'
+  link: 'https://www.facebook.com/francesco.cucinotta1'
   social_icon: Facebook
   new_window: true
 - name: RSS
   link: '/feed.xml'
   social_icon: RSS
+  new_window: true
+- name: Instagram
+  link: 'https://www.instagram.com/francesco_cucinotta93/'
+  social_icon: Instagram
   new_window: true
