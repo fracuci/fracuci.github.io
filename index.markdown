@@ -2,8 +2,6 @@
 layout: default
 title : fracuci
 ---
-<!DOCTYPE html>
-
 <html>
 	<head>
 		<meta charset="utf-8">
