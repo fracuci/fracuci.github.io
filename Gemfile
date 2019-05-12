@@ -1,11 +1,10 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
+gem 'jekyll', '3.3.1'
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
-
-gem "jekyll"
-
-gem "jekyll-theme-minimal"
+group :jekyll_plugins do
+	gem 'jekyll-feed', '0.6.0'
+	gem 'jekyll-seo-tag', '2.1.0'
+	gem 'jekyll-paginate', '1.1.0'
+	gem 'jekyll-sitemap', '1.0.0'
+end
