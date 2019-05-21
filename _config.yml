@@ -16,7 +16,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/
 
-url: about.md
+url: http://fracuci.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
