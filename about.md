@@ -40,7 +40,7 @@ layout: page
 
 <h2>Personal Interests</h2>
 <p> I enjoy running in the open air and in all types of
-	 terrains - when compatible with daily shedules and time tables. 
+	 terrains - when compatible with daily schedules and time tables. 
 	 
 	 Over the years I also developed a passion for montain trekking
 	 which is growing thanks to my friends. </p> 
