@@ -13,8 +13,8 @@ author: Francesco Cucinotta
 # edit this section with your information
 # jekyller.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /
-profile_url: /profile
+baseurl: /index
+#profile_url: /profile
 title: Francesco Cucinotta
 name: Francesco Cucinotta
 email: fracuci-at-tiscali-dot-it
