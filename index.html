@@ -5,13 +5,30 @@ layout: home
 <section id="about">
 	<div class="container">
 	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  	<img class="profile_pic" src="{{ site.baseurl }}static/img/profile.jpg">
+		<!-- <img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image"> -->
 	  </div>
-	  <h3>I'm <strong>{{ site.author }}</strong>, a Software Engineer.</h3>
-	  <h3>I love all things computer science and maths.</h3>
+	  <div id="presentation">
+	  	
+	  	<h3>I'm <strong>{{ site.author }}</strong>, <br>
+	  	a Data Scientist and Management Engineer.</h3>
+
+	  	<h3>I'm a runner and mountain-trekking enthusiast.</h3>
+
+	  	<!-- <h3>I'm currently employed as Software Developer Engineer on Open Source Services @<a href="https://it.nttdata.com/">NTT Data Italy</a></h3>  --> 
 	  <!-- <h3>Have a look at some of my working <a href="{{ site.baseurl }}projects.html"> projects</a>.</h3> -->
-	  <h3>For more check out my academic &amp; professional <a href="http://{{ site.github }}.github.io/profile">Resume</a>.</h3>
-	  <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  	<h3>For further info on me &amp; my academic/professional achievements see my <a href="http://{{ site.github }}.github.io/profile">Curriculum Vitae</a>.</h3>
+	  	<h3>or</h3>
+	  	<h3>Contact me</h3>
+	  
+	  <p>
+            <a href="{{ site.email_full }}"><i class="fa fa-envelope">{{ site.email }}</i></a><br/>
+            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> 
+            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="https://www.instagram.com/{{ site.instagram }}"><i class="fa fa-instagram"></i> Instagram</a>
+        </p>
+
+	  </div>
 	  
 	</div>
 </section>
