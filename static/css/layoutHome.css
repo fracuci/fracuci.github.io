@@ -97,7 +97,7 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color: #494949;/*#38948b;/*#27A822;*/
+  color: #393939;/*#494949;/*#38948b;/*#27A822;*/
 }
 .container a:hover {
   color: #dd0505;/*#38948b;/*#267723;*/
@@ -193,12 +193,14 @@ body {
 
 .text-muted {
   /*background-color: solid #38948b;*/
-	color: #494949;/*#6b6b6b;*/
+	color: #393939;/*#494949;/*#6b6b6b;*/
 }
 
 #footer{
 
   margin-top: 40px; /*#27A822;;*/
+  margin-bottom: -5%;
+  height: 80px;
   background-color: #38948b;
 }
 
