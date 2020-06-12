@@ -14,9 +14,9 @@ body {
     margin-bottom: 0px;
 }
 
-a {
-    text-decoration: none;
-    /*background-color: rgba(39, 168, 34, 0.06);*/
+.container a {
+    /*text-decoration: none;*/
+    color: #393939;
 }
 
 a:visited {
