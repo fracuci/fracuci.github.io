@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+.main-body {
+    background: linear-gradient(to bottom, #032c3b, #FFFFFF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+}
+
+.welcome-bar {
+    background: rgba(255, 255, 255, 0.819);
+    box-shadow: 0 8px 32px 0 rgba(246, 246, 246, 0.37);
+    backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur( 0px );
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/*
+.welcome-bar > h1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+    */
