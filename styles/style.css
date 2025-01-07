@@ -30,11 +30,11 @@ header h1 {
 
 .login-form {
     background: #b9afaf67;
-    padding: 20px 30px;
+    padding: 20px 15%;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.397);
-    width: 100%;
-    max-width: 80%;
+    width: 50%;
+    max-width: 60%;
 }
 
 .login-form h2 {
