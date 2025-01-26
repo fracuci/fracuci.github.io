@@ -16,3 +16,11 @@ function sendLoginData() {
 };
 
 loginButton.addEventListener("click", sendLoginData);
+
+if ("virtualKeyboard" in navigator) {
+    navigator.virtualKeyboard.overlaysContent = true;
+  
+    navigator.virtualKeyboard.addEventListener("geometrychange", (event) => {
+      const { x, y, width, height } = event.target.boundingRect;
+    });
+  }
