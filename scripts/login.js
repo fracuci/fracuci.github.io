@@ -8,7 +8,7 @@ const loginButton = document.querySelector("button");
 
 function sendLoginData() {
     const credentialsLogin = {
-        action: "login",
+        action: "auth",
         username: loginUser.value,
         password: loginPassword.value
     }
