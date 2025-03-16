@@ -7,12 +7,13 @@ let loginPassword = document.querySelector("form input[name='password']");
 const loginButton = document.querySelector("button");
 
 function sendLoginData() {
-    const credentials = {
+    const credentialsLogin = {
+        action: "login",
         username: loginUser.value,
         password: loginPassword.value
     }
     
-    telegramWebApp.sendData(JSON.stringify(credentials))
+    telegramWebApp.sendData(JSON.stringify(credentialsLogin))
 };
 
 loginButton.addEventListener("click", sendLoginData);
